@@ -1,0 +1,11 @@
+div {
+  background-color: rgb(102, 102, 153);
+}
+button {
+    background-color: rgb(209, 209, 224);
+    width: 95px;
+}
+mat-form-field {
+
+  width: 500px;
+}

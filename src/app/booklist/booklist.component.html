@@ -1,0 +1,9 @@
+<!-- <p>booklist works!</p> -->
+<h2>2020 Books</h2>
+<p></p>
+<ul class="books"
+    *ngFor="let book of books"
+    [class.selected]="book === selectedBook"
+    (click)="onSelect(book)">
+        <span class = "badge">{{book.title}}</span> - {{book.author}}
+</ul>
